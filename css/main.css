@@ -1,4 +1,7 @@
-
+body, html {
+    background-attachment: fixed;
+    background-color: #fff;
+}
 
 p {
     font-size: 20px;
@@ -33,7 +36,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
 }
 
-
 .round {
 display: inline-block;
 position: relative;
@@ -46,7 +48,7 @@ border-radius: 300px;
 }
 
 .round:hover{
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 header {
@@ -102,17 +104,15 @@ header .intro-text .skills {
     }
 }
 
-.btn-success {
+.btn-success, .btn-primary {
     background-color: #fff;
     border-color: #18bc9c;
     color: #18bc9c;
 }
 
-.btn-success:hover{
+.btn-success:hover, .btn-primary:hover {
     background-color: #18bc9c;
     color: #fff;
-
-
 }
 
 .navbar {
@@ -147,10 +147,6 @@ section h2 {
     font-size: 3em;
 }
 
-section h2:hover {
-    font-size: 4em;
-}
-
 section.success {
     color: #fff;
     background: #18bc9c;
@@ -176,6 +172,11 @@ section.success {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+}
+
+.para {
+    background-image: url('img/background.jpg');
+    background-position: fixed;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -254,7 +255,7 @@ section.success {
     border-radius: 0;
     font-size: 1.5em;
     background: 0 0;
-    box-shadow: none!important;
+    box-shadow: none
     resize: none;
 }
 
@@ -350,6 +351,3 @@ footer .footer-below {
 .scroll-top .btn:focus {
     outline: 0;
 }
-
-
-

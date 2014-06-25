@@ -1,88 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Katie Holland, Freelance Web Development & Design</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Katie Holland, Freelance Web Development & Design</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet" type="text/css" >
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  </head>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet" type="text/css" >
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    </head>
 
-  <body id="top" class="index">
+    <body id="top" class="index">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span href="#portfolio" class="icon-bar"></span>
+                        <span href="#about" class="icon-bar"></span>
+                        <span href="#contact" class="icon-bar"></span>
+                    </button>
+                  <a class="navbar-brand" href="#top">Katie Holland</a>   
+                </div>
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header page-scroll">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main">
-            <span class="sr-only">Toggle navigation</span>
-            <span href="#portfolio" class="icon-bar"></span>
-            <span href="#about" class="icon-bar"></span>
-            <span href="#contact" class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#top">Katie Holland</a>   
-        </div>
-
-        <div class="collapse navbar-collapse" id="main">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="hidden">
-                <a href="#top"></a>
-            </li>
-            <li class="page-scroll">
-              <a href="#portfolio">Portfolio</a>     
-            </li>
-             <li class="page-scroll">
-              <a href="#about">About</a>     
-            </li>
-             <li class="page-scroll">
-              <a href="#contact">Contact</a>     
-            </li>
-          </ul>
-       </div><!--end of navbar collapse-->
-      </div><!--end of navbar-->   
-    </nav><!--navbar--><!--navbar-->
-
-
-  <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-          <img src="img/headshot.jpg" class="img-responsive round" alt="Katie Holland">
-          <div class="intro-text">
-            <span class="name">Katie Holland</span>
-            <hr>
-            <span class="skills">Web Developer & Web Designer</span>         
-          </div>
-        </div>   
-      </div>
-  </header>
-
-
-<section id="portfolio">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>Portfolio</h2>
-        <hr>     
-    </div>
-  </div>
-  <div class="row">
-
-    <div class="col-sm-4 portfolio-item">
-      <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-        <div class="caption">
-          <div class="caption-content">
-            <i class="fa fa-search-plus fa-3x"></i> 
-          </div>
-        </div>
-        <img src="img/Google.png" class="img-responsive" alt="Google Clone"/>
-      </a>
-  </div><!--end of Portfolio 1-->
-
- <div class="col-sm-4 portfolio-item">
+                <div class="collapse navbar-collapse" id="main">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#portfolio">Portfolio</a>     
+                        </li>
+                        <li class="page-scroll">
+                          <a href="#about">About</a>     
+                        </li>
+                        <li class="page-scroll">
+                          <a href="#contact">Contact</a>     
+                        </li>
+                    </ul>
+                </div><!--end of navbar collapse-->
+            </div><!--end of navbar-->   
+        </nav><!--navbar-->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img src="img/headshot.jpg" class="img-responsive round" alt="Katie Holland">
+                        <div class="intro-text">
+                            <span class="name">Katie Holland<hr></span>
+                            <span class="skills">Web Developer & Web Designer</span>
+                        </div>         
+                    </div>
+                </div>   
+            </div>
+        </header>
+        <section id="portfolio" data-stellar-background-ratio="0.5" class="para">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Portfolio<hr></h2>  
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i> 
+                            </div>
+                        </div>
+                        <img src="img/Google.png" class="img-responsive" alt="Google Clone"/>
+                    </a>
+                </div><!--end of Portfolio 1-->
+                <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -133,329 +127,264 @@
                     </a>
                 </div><!--end of Portfolio 6-->
             </div>
-        </div>
- </section>
- <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>I specialize in Web Development, Design, and Bassoon. I have been designing, customizing, and maintaining websites since 2006.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Skills Include: HTML5, CSS3, JavaScript, jQuery, Ajax, Bootstrap, Wordpress, Photoshop,and Social Media.</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#resumeModal" data-toggle="modal" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i>Resume
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <form role="form">
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="name">Name</label>
-                                <input class="form-control" type="text" name="name" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="email">Email Address</label>
-                                <input class="form-control" type="email" name="email" placeholder="Email Address">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="message">Message</label>
-                                <textarea placeholder="Message" class="form-control" rows="5"></textarea>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                            <input type="hidden" name="sendtoemail" value="katherinenholland@gmail.com">  
-                            <button type="submit" class="btn btn-lg btn-success center-block"><a href="#formModal" data-toggle="modal">Submit</a></button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section><!--end of contact form--><!--Contact Section-->
-
-    <footer class="text-center">
-        <div class="footer-above">
+        </section>
+        <section class="success" id="about">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <hr>
-                        <p>658 Linwood Avenue
-                          <br>Atlanta, GA 30306</p>
+                    <div class="col-lg-12 text-center">
+                        <h2>About<hr></h2>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <hr>
-                        <ul class="list-inline">
-                            <li><a target="_blank" href="https://www.facebook.com/katie.holland.543908?ref=tn_tnmn" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li><a target="_blank" href="https://plus.google.com/u/1/106730248487192363472/posts" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li><a target="_blank" href="https://twitter.com/kt_holland" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li><a target="_blank" href="https://www.linkedin.com/profile/view?id=45511036&trk=nav_responsive_tab_profile" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li><a target="_blank" href="https://github.com/katherinenholland" class="btn-social btn-outline"><i class=" fa fa-fw fa-github"></i></a>
-                            </li>
-                       </ul>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <p>I specialize in Web Development, Design, and Bassoon. I have been designing, customizing, and maintaining websites since 2006.</p>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About</h3>
-                        <hr>
-                        <p>For more info on my music please visit: 
-                    <a target="_blank" href="www.hollandbassoon.com">www.hollandbassoon.com.</a></p>
+                    <div class="col-lg-4">
+                        <p>Skills Include: HTML5, CSS3, JavaScript, jQuery, Ajax, Bootstrap, Wordpress, Photoshop,and Social Media.</p>
                     </div>
-
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <a href="#resumeModal" data-toggle="modal" class="btn btn-lg btn-outline">
+                            <i class="fa fa-download"></i>Resume
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-below">
+        </section>
+        <section id="contact" data-stellar-background-ratio="0.5" class="para">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        &copy; Katie Holland, 2014
+                    <div class="col-lg-12 text-center">
+                        <h2>Contact Me<hr></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <form action="http://www.bluehost.com/bluemail" enctype="multipart/form-data" method="POST">
+                            <div class="row">
+                                <div class="form-group col-xs-12 floating-label-form-group">
+                                    <label for="name">Name</label>
+                                    <input class="form-control" type="text" name="name" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-xs-12 floating-label-form-group">
+                                    <label for="email">Email Address</label>
+                                    <input class="form-control" type="email" name="email" placeholder="Email Address">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-xs-12 floating-label-form-group">
+                                    <label for="message">Message</label>
+                                    <textarea placeholder="Message" class="form-control" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-xs-12"> 
+                                    <input type="hidden" name="sendtoemail" value="webmaster@katherinenholland.com">
+                                    <button type="submit" value="Send Email" class="btn btn-lg btn-success center-block">Submit</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
+        </section><!--end of contact section-->
+        <footer class="text-center">
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col col-md-4">
+                            <h3>Location</h3>
+                            <hr>
+                            <p>658 Linwood Avenue<br>Atlanta, GA 30306</p>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h3>Around the Web</h3>
+                            <hr>
+                            <ul class="list-inline">
+                                <li><a target="_blank" href="https://www.facebook.com/katie.holland.543908?ref=tn_tnmn" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                </li>
+                                <li><a target="_blank" href="https://plus.google.com/u/1/106730248487192363472/posts" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                </li>
+                                <li><a target="_blank" href="https://twitter.com/kt_holland" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                </li>
+                                <li><a target="_blank" href="https://www.linkedin.com/profile/view?id=45511036&trk=nav_responsive_tab_profile" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                </li>
+                                <li><a target="_blank" href="https://github.com/katherinenholland" class="btn-social btn-outline"><i class=" fa fa-fw fa-github"></i></a>
+                                </li>
+                           </ul>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h3>About</h3>
+                            <hr>
+                            <p>For more info on my music please visit: 
+                            <a target="_blank" href="www.hollandbassoon.com">www.hollandbassoon.com.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-below">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            &copy; Katie Holland, 2014
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer><!--footer-->
+        <div class="scroll-top page-scroll visible-xs visble-sm">
+            <a class="btn btn-primary" href="#top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
         </div>
-    </footer><!--footer-->
-
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-
-
-    <!-- Portfolio Modals -->
-    <div class=" modals modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="resumeModal" aria-hidden="true">
-        <div class="modal-dialog">
-           <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="resumeModal">Resume</h4>
-              </div>
-            <div class="modal-skills modal-body">
-               <p>Coming Soon! Please email for details.</p>
+        <!-- Modals -->
+        <div class=" modals modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="formModal">Contact Form Submission</h4>
+                    </div>
+                    <div class="modal-skills modal-body">
+                        <p>Thank you for contacting me! I will reply to you within one business day.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
+                    </div>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
-            </div>
-        </div>
-    </div>
-</div><!--end of resume modal-->
-
-<div class=" modals modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModal" aria-hidden="true">
-        <div class="modal-dialog">
-           <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="formModal">Contact Form Submission</h4>
-              </div>
-            <div class="modal-skills modal-body">
-               <p>Thank you for contacting me! I will reply to you within one business day.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
-            </div>
-        </div>
-    </div>
-</div><!--end of form modal-->
-
-     <div class=" modals modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1" aria-hidden="true">
-        <div class="modal-dialog">
-           <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="portfolioModal1">Google Clone</h4>
-              </div>
-            <div class="modal-skills modal-body">
-               <p>I cloned the Google Home Page as a project for the FEWD Course with Thinkful. The goal was to replicate the page without looking at source code.</p>
-                    <ul class="list-inline item-details">
-                        <li>Skills: <strong>HTML5 & CSS3</strong>
-                        </li>
-                        <li>Date: <strong>2014</strong>
-                        </li><br>
-                        <li class="website"><strong><a target="_blank" href="http://katherinenholland.github.io/GoogleClone/">Website</a></strong>
-                        </li>
+        </div><!--end of form modal-->
+        <div class=" modals modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="portfolioModal1">Google Clone</h4>
+                    </div>
+                    <div class="modal-skills modal-body">
+                        <p><strong>I cloned the Google Home Page as a project for the FEWD Course with Thinkful. The goal was to replicate the page without looking at source code.</strong></p>
+                        <ul class="list-inline item-details">
+                            <li><strong>Skills:</strong>HTML5 & CSS3</li>
+                            <li><strong>Date:</strong>2014</li>
+                            <li class="website"><strong><a target="_blank" href="http://katherinenholland.github.io/GoogleClone/">Website</a></strong></li>
                         </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
+                    </div>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
+        </div><!--end of Portfolio 1*-->
+        <div class="modals modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="portfolioModal2">Fizz Buzz</h4>
+                    </div>
+                    <div class="modal-skills modal-body">
+                        <p>This project will take any whole number and return: Numbers not Divisible by 3 or 5, Fizz for numbers divisible by 3, Buzz for numbers divisible by 5, and Fizz Buzz for numbers divisible by 3 and 5.</p>
+                            <ul class="list-inline item-details">
+                                <li><strong>Skills:</strong>jQuery & JavaScript</li>
+                                <li><strong>Date:</strong>2014</li>
+                                <li class="website"><strong><a target="_blank" href="http://katherinenholland.github.io/FizzBuzzRefactor/">Website</a></strong></li>
+                            </ul>
+                        </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</div><!--end of Portfolio 1*-->
-
-
-  <div class="modals modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2" aria-hidden="true">
-        <div class="modal-dialog">
-           <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="portfolioModal2">Fizz Buzz</h4>
-              </div>
-            <div class="modal-skills modal-body">
-               <p>This project will take any whole number and return: Numbers not Divisible by 3 or 5, Fizz for numbers divisible by 3, Buzz for numbers divisible by 5, and Fizz Buzz for numbers divisible by 3 and 5.</p>
-                    <ul class="list-inline item-details">
-                        <li>Skills: <strong>jQuery & JavaScript</strong>
-                        </li>
-                        <li>Date: <strong>2014</strong>
-                        </li><br>
-                        <li class="website"><strong><a target="_blank" href="http://katherinenholland.github.io/FizzBuzzRefactor/">Website</a></strong>
-                        </li>
+        </div><!--end of Portfolio 2*-->
+        <div class="modals modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="portfolioModal3">Hot or Cold App</h4>
+                    </div>
+                    <div class="modal-skills modal-body">
+                        <p>This App will give you feedback on guesses until you guess the secret number. The secret number is randomly selected each time a new game starts.</p>
+                        <ul class="list-inline item-details">
+                            <li><strong>Skills:</strong>jQuery & JavaScript</li>
+                            <li><strong>Date: </strong>2014</li>
+                            <li class="website"><strong><a target="_blank" href="http://katherinenholland.github.io/hotColdApp/">Website</a></strong></li>
                         </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
+                    </div>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
-            </div>
-        </div>
-    </div>
-</div><!--end of Portfolio 2*-->
-
- 
- <div class="modals modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3" aria-hidden="true">
-        <div class="modal-dialog">
-           <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="portfolioModal3">Hot or Cold App</h4>
-              </div>
-            <div class="modal-skills modal-body">
-               <p>This App will give you feedback on guesses until you guess the secret number. The secret number is randomly selected each time a new game starts.</p>
-                    <ul class="list-inline item-details">
-                        <li>Skills: <strong>jQuery & JavaScript</strong>
-                        </li>
-                        <li>Date: <strong>2014</strong>
-                        </li><br>
-                        <li class="website"><strong><a target="_blank" href="http://katherinenholland.github.io/hotColdApp/">Website</a></strong>
-                        </li>
-                    </ul>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
-            </div>
-        </div>
-    </div>
-</div><!--end of Portfolio 3*-->
-
-     <div class="modals modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4" aria-hidden="true">
-        <div class="modal-dialog">
-           <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="portfolioModal4">Trivia Quiz App</h4>
-              </div>
-            <div class="modal-skills modal-body">
-               <p>This Trivia Quiz on obscure music trivia takes you through five individual questions and keeps track of your score.</p>
-                    <ul class="list-inline item-details">
-                        <li>Skills: <strong>HTML5, CSS3, jQuery, JavaScript</strong>
-                        </li>
-                        <li>Date: <strong>2014</strong>
-                        </li><br>
-                        <li class="website"><strong><a target="_blank" href="http://katherinenholland.github.io/quizApp5/">Website</a></strong>
-                        </li>
+        </div><!--end of Portfolio 3*-->
+        <div class="modals modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="portfolioModal4">Trivia Quiz App</h4>
+                    </div>
+                    <div class="modal-skills modal-body">
+                        <p>This Trivia Quiz on obscure music trivia takes you through five individual questions and keeps track of your score.</p>
+                        <ul class="list-inline item-details">
+                            <li><strong>Skills:</strong>HTML5, CSS3, jQuery, JavaScript</li>
+                            <li><strong>Date:</strong>2014</li>
+                            <li class="website"><strong><a target="_blank" href="http://katherinenholland.github.io/quizApp5/">Website</a></strong></li>
                         </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
+                    </div>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
-            </div>
-        </div>
-    </div>
-</div><!--end of Portfolio 4*-->
-
-     <div class="modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5" aria-hidden="true">
-        <div class="modal-dialog">
-           <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="portfolioModal5">Shopping List App</h4>
-              </div>
-            <div class="modal-skills modal-body">
-                <p>This App will allow you to submit shopping list items, check off items, and delete items from the list.</p>
-                    <ul class="list-inline item-details">
-                        <li>Skills: <strong>HTML5, CSS3, jQuery, JavaScript</strong>
-                        </li>
-                        <li>Date: <strong>2014</strong>
-                        </li><br>
-                        <li class="website"><strong><a target="_blank" href="http://katherinenholland.github.io/Shopping-List/">Website</a></strong>
-                        </li>
+        </div><!--end of Portfolio 4*-->
+        <div class="modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="portfolioModal5">Shopping List App</h4>
+                    </div>
+                    <div class="modal-skills modal-body">
+                        <p>This App will allow you to submit shopping list items, check off items, and delete items from the list.</p>
+                        <ul class="list-inline item-details">
+                            <li><strong>Skills:</strong>HTML5, CSS3, jQuery, JavaScript</li>
+                            <li><strong>Date:</strong>2014</li>
+                            <li class="website"><strong><a target="_blank" href="http://katherinenholland.github.io/Shopping-List/">Website</a></strong></li>
                         </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
+                    </div>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
-            </div>
-        </div>
-    </div>
-</div><!--end of Portfolio 5*-->
-
-    <div class="modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6" aria-hidden="true">
-        <div class="modal-dialog">
-           <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="portfolioModal6">Food Porn API</h4>
-              </div>
-            <div class="modal-skills modal-body">
-                 <p>This Third Party API uses Instagram to search for food pics.</p>
-                    <ul class="list-inline item-details">
-                        <li>Skills: <strong>HTML5, CSS3, Ajax, JavaScript, jQuery</strong>
-                        </li>
-                        <li>Date: <strong>2014</strong>
-                        </li><br>
-                        <li class="website"><strong><a target="_blank" href="http://katherinenholland.github.io/API/">Website</a></strong>
-                        </li>
+        </div><!--end of Portfolio 5*-->
+        <div class="modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="portfolioModal6">Food Porn API</h4>
+                    </div>
+                    <div class="modal-skills modal-body">
+                        <p>This Third Party API uses Instagram to search for food pics.</p>
+                        <ul class="list-inline item-details">
+                            <li><strong>Skills:</strong>HTML5, CSS3, Ajax, JavaScript, jQuery</li>
+                            <li><strong>Date:</strong>2014</li>
+                            <li class="website"><strong><a target="_blank" href="http://katherinenholland.github.io/API/">Website</a></strong></li>
                         </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
+                    </div>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>    
-            </div>
-        </div>
-    </div>
-</div><!--end of Portfolio 6*-->
-
-    
-   
-
-    <script src="js/jquery-2.1.1.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/app.js"></script>
-    
-    
-
-</body>
-
+        </div><!--end of Portfolio 6*-->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/jquery.easing-1.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 </html>
-
-
-  
